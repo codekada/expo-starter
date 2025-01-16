@@ -1,33 +1,20 @@
-import { StyleSheet } from "react-native";
-
-import EditScreenInfo from "@/components/EditScreenInfo";
+import React from "react";
+import { ScrollView, TextInput } from "react-native";
 import { Text, View } from "@/components/Themed";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function TabOneScreen() {
+export default function Home() {
     return (
-        <View style={styles.container}>
-            <Text className="text-red-500">test</Text>
-            testasdasdaiusd
-            <div style={styles.test}>test</div>
-            <div style={styles.card}>card</div>
-        </View>
+        <>
+            <SafeAreaView className="h-[350px]">
+                <View className="flex-1 h-[350px] text-[30px] border items-center justify-center bg-[#282c34]">
+                    <Text className="text-xl">asdaadssdsasds</Text>
+                </View>
+            </SafeAreaView>
+            <ScrollView className="h-[350px]">
+                <Text>asdasdsdasdasd</Text>
+                <Text className="h-[300px]">asdasdsdasdasd</Text>
+            </ScrollView>
+        </>
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    test: {
-        color: "red",
-        backgroundColor: "blue",
-        width: 100,
-    },
-    card: {
-        backgroundColor: "red",
-        width: 100,
-        height: 100,
-    },
-});

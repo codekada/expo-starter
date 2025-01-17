@@ -3,6 +3,7 @@
 a starter pack template for expo router
 
 ## prerequisite
+
 - [android studio](https://developer.android.com/)
 - [node.js](https://nodejs.org/en)
 
@@ -16,18 +17,27 @@ a starter pack template for expo router
 - [eslint & prettier](https://docs.expo.dev/guides/using-eslint/)
 
 ## for developers
+
 ### developer production
+
 ```
 npx expo start
 ```
 
 ### prebuild production
+
 ```
 npx expo prebuild
+npx expo run:android
 ```
 
 ### analyzing code for potential errors or debugging
+
 ```
 npx expo lint
 npx expo-doctor
 ```
+
+### references
+
+[Set up your environment](https://docs.expo.dev/get-started/set-up-your-environment/)

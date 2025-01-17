@@ -2,22 +2,32 @@
 
 a starter pack template for expo router
 
+## prerequisite
+- [android studio](https://developer.android.com/)
+- [node.js](https://nodejs.org/en)
+
 ## features
 
-- [ ] [react native](https://reactnative.dev/)
-- [ ] [expo](https://expo.dev/)
-- [ ] [nativewind](https://www.nativewind.dev/)
-- [ ] [typescript](https://www.typescriptlang.org/)
-- [ ] lucide-react-native
-- [ ] eslint & prettier
+- [react native](https://reactnative.dev/)
+- [expo](https://expo.dev/)
+- [nativewind](https://www.nativewind.dev/)
+- [typescript](https://www.typescriptlang.org/)
+- [lucide-react-native](https://lucide.dev/guide/packages/lucide-react-native)
+- [eslint & prettier](https://docs.expo.dev/guides/using-eslint/)
 
 ## for developers
+### developer production
+```
+npx expo start
+```
 
-to-do
+### prebuild production
+```
+npx expo prebuild
+```
 
-- [ ] expo-doctor (errors: Check for common project setup issues, Validate packages against React Native Directory package metadata)
-- [ ] development build for debugging (android build)
-- [ ] build apk in expo
-- [ ] create ui expo starter template
-
-## references
+### analyzing code for potential errors or debugging
+```
+npx expo lint
+npx expo-doctor
+```

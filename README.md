@@ -6,5 +6,7 @@ a starter pack template for expo router
 - [ ] [expo](https://expo.dev/)
 - [ ] [nativewind](https://www.nativewind.dev/)
 - [ ] [typescript](https://www.typescriptlang.org/)
+- [ ] lucide-react-native
+- [ ] eslint & prettier
 
 ## references

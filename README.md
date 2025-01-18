@@ -20,20 +20,20 @@ a starter pack template for expo router
 
 ### install dependencies
 
-```
+```bash
 npm install
 ```
 
 ### build production
 
-```
+```bash
 eas login # login your account
 eas build --profile production
 ```
 
 ### developer production
 
-```
+```bash
 # start the developer server
 pnpm expo start
 
@@ -44,7 +44,7 @@ npx expo run:android
 
 ### analyzing code for potential errors or debugging
 
-```
+```bash
 npx expo lint
 npx expo-doctor
 ```

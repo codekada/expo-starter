@@ -1,6 +1,6 @@
 import React from "react";
 import { Platform } from "react-native";
-import { Text, View } from "@/components/Themed";
+import { Text, View } from "../../components/Themed";
 import { StatusBar } from "expo-status-bar";
 
 export default function Home() {

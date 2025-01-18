@@ -18,15 +18,26 @@ a starter pack template for expo router
 
 ## for developers
 
+### install dependencies
+
+```
+npm install
+```
+
+### build production
+
+```
+eas login # login your account
+eas build --profile production
+```
+
 ### developer production
 
 ```
-npx expo start
-```
+# start the developer server
+pnpm expo start
 
-### prebuild production
-
-```
+# prebuild developer build
 npx expo prebuild
 npx expo run:android
 ```

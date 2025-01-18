@@ -1,7 +1,7 @@
 {
     "name": "expo-starter",
     "main": "expo-router/entry",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "scripts": {
         "start": "expo start",
         "android": "expo run:android",
@@ -40,7 +40,7 @@
     "devDependencies": {
         "@babel/core": "^7.26.0",
         "@types/react": "~18.3.18",
-        "eslint": "^8.57.0",
+        "eslint": "^8.57.1",
         "eslint-config-expo": "~8.0.1",
         "eslint-config-prettier": "^10.0.1",
         "eslint-plugin-prettier": "^5.2.2",

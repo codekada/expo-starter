@@ -35,7 +35,7 @@ eas build --profile production
 
 ```bash
 # start the developer server
-pnpm expo start
+npm expo start
 
 # prebuild developer build
 npx expo prebuild
